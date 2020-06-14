@@ -1,6 +1,10 @@
 # kantorotanium
 Eve Online: optimize compressed ore purchases
 
+> Leonid Vitaliyevich Kantorovich (Russian: Леони́д Вита́льевич Канторо́вич) (19 January 1912 – 7 April 1986) was a Soviet mathematician and economist, known for his theory and development of techniques for the optimal allocation of resources. He is regarded as the founder of linear programming. He was the winner of the Stalin Prize in 1949 and the Nobel Memorial Prize in Economic Sciences in 1975.  
+— https://en.wikipedia.org/wiki/Leonid_Kantorovich
+
+
 Unlike other ore optimizers, this one never gives you "impossible" output by telling you to buy 10,000 units of something that has only 100 units available.
 Each order on the market becomes its own constraint in the optimization problem.
 
