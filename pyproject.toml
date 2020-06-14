@@ -3,6 +3,7 @@ name = "kantorotanium"
 version = "0.0.1"
 description = "Eve Online: optimize compressed ore purchases"
 authors = ["Chris Danis <cdanis@gmail.com>"]
+include = ["ore_50pctbase_554_4pctimplant.csv"]
 
 [tool.poetry.dependencies]
 python = "^3.7"

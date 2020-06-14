@@ -24,7 +24,7 @@ setup(
     },
     packages=['kantorotanium'],
     package_dir={"": "."},
-    package_data={},
+    package_data={"kantorotanium": ["data_files/*.csv"]},
     install_requires=[],
     extras_require={
         "dev": [
