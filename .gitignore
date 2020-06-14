@@ -1,3 +1,11 @@
-.venv
+all_orders.cache.json
 
-kantorotanium.egg-info
+poetry.lock
+
+.venv
+*.egg-info/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
