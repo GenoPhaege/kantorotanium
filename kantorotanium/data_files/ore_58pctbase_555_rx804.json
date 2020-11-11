@@ -1,0 +1,947 @@
+[
+  {
+    "name": "Compressed Veldspar",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 337,
+      "isogen": 0
+    },
+    "item_id": 28432,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Concentrated Veldspar",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 354,
+      "isogen": 0
+    },
+    "item_id": 28430,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Dense Veldspar",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 370,
+      "isogen": 0
+    },
+    "item_id": 28431,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Stable Veldspar",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 387,
+      "isogen": 0
+    },
+    "item_id": 46705,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Scordite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 75,
+      "zydrine": 0,
+      "tritanium": 126,
+      "isogen": 0
+    },
+    "item_id": 28429,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Condensed Scordite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 79,
+      "zydrine": 0,
+      "tritanium": 132,
+      "isogen": 0
+    },
+    "item_id": 28427,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Massive Scordite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 83,
+      "zydrine": 0,
+      "tritanium": 139,
+      "isogen": 0
+    },
+    "item_id": 28428,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Glossy Scordite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 87,
+      "zydrine": 0,
+      "tritanium": 145,
+      "isogen": 0
+    },
+    "item_id": 46703,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Pyroxeres",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 25,
+      "pyerite": 75,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28424,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Solid Pyroxeres",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 26,
+      "pyerite": 79,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28425,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Viscous Pyroxeres",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 27,
+      "pyerite": 83,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28426,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Opulent Pyroxeres",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 29,
+      "pyerite": 87,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 46702,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Plagioclase",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 59,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 147,
+      "isogen": 0
+    },
+    "item_id": 28422,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Azure Plagioclase",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 61,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 154,
+      "isogen": 0
+    },
+    "item_id": 28421,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Rich Plagioclase",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 64,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 162,
+      "isogen": 0
+    },
+    "item_id": 28423,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Sparkling Plagioclase",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 67,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 169,
+      "isogen": 0
+    },
+    "item_id": 46701,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Omber",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 75,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 63
+    },
+    "item_id": 28416,
+    "volume": 0.3
+  },
+  {
+    "name": "Compressed Silvery Omber",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 79,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 66
+    },
+    "item_id": 28417,
+    "volume": 0.3
+  },
+  {
+    "name": "Compressed Golden Omber",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 83,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 69
+    },
+    "item_id": 28415,
+    "volume": 0.3
+  },
+  {
+    "name": "Compressed Platinoid Omber",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 87,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 72
+    },
+    "item_id": 46700,
+    "volume": 0.3
+  },
+  {
+    "name": "Compressed Kernite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 50,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 101
+    },
+    "item_id": 28410,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Luminous Kernite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 53,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 106
+    },
+    "item_id": 28411,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Fiery Kernite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 55,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 111
+    },
+    "item_id": 28409,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Resplendant Kernite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 58,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 116
+    },
+    "item_id": 46699,
+    "volume": 0.19
+  },
+  {
+    "name": "Compressed Jaspet",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 42,
+      "mexallon": 126,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28406,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Pure Jaspet",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 44,
+      "mexallon": 132,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28407,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Pristine Jaspet",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 46,
+      "mexallon": 139,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28408,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Immaculate Jaspet",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 48,
+      "mexallon": 145,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 46698,
+    "volume": 0.15
+  },
+  {
+    "name": "Compressed Hemorphite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 75,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 202
+    },
+    "item_id": 28403,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Vivid Hemorphite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 79,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 212
+    },
+    "item_id": 28404,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Radiant Hemorphite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 83,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 222
+    },
+    "item_id": 28405,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Scintillating Hemorphite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 87,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 232
+    },
+    "item_id": 46697,
+    "volume": 0.16
+  },
+  {
+    "name": "Compressed Hedbergite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 101,
+      "mexallon": 0,
+      "pyerite": 379,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28401,
+    "volume": 0.14
+  },
+  {
+    "name": "Compressed Vitric Hedbergite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 106,
+      "mexallon": 0,
+      "pyerite": 398,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28402,
+    "volume": 0.14
+  },
+  {
+    "name": "Compressed Glazed Hedbergite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 111,
+      "mexallon": 0,
+      "pyerite": 417,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28400,
+    "volume": 0.14
+  },
+  {
+    "name": "Compressed Lustrous Hedbergite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 116,
+      "mexallon": 0,
+      "pyerite": 436,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 46696,
+    "volume": 0.14
+  },
+  {
+    "name": "Compressed Gneiss",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1264,
+      "pyerite": 1686,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 674
+    },
+    "item_id": 28397,
+    "volume": 1.8
+  },
+  {
+    "name": "Compressed Iridescent Gneiss",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1327,
+      "pyerite": 1770,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 708
+    },
+    "item_id": 28398,
+    "volume": 1.8
+  },
+  {
+    "name": "Compressed Prismatic Gneiss",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1390,
+      "pyerite": 1854,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 741
+    },
+    "item_id": 28399,
+    "volume": 1.8
+  },
+  {
+    "name": "Compressed Brilliant Gneiss",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1454,
+      "pyerite": 1938,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 775
+    },
+    "item_id": 46695,
+    "volume": 1.8
+  },
+  {
+    "name": "Compressed Dark Ochre",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 269,
+      "mexallon": 1146,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 1011
+    },
+    "item_id": 28394,
+    "volume": 3.27
+  },
+  {
+    "name": "Compressed Onyx Dark Ochre",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 283,
+      "mexallon": 1203,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 1062
+    },
+    "item_id": 28395,
+    "volume": 3.27
+  },
+  {
+    "name": "Compressed Obsidian Dark Ochre",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 296,
+      "mexallon": 1261,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 1112
+    },
+    "item_id": 28396,
+    "volume": 3.27
+  },
+  {
+    "name": "Compressed Jet Dark Ochre",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 310,
+      "mexallon": 1318,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 1163
+    },
+    "item_id": 46694,
+    "volume": 3.27
+  },
+  {
+    "name": "Compressed Spodumain",
+    "refines_to": {
+      "megacyte": 33,
+      "morphite": 0,
+      "nocxium": 134,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 67,
+      "tritanium": 40464,
+      "isogen": 843
+    },
+    "item_id": 28420,
+    "volume": 28
+  },
+  {
+    "name": "Compressed Bright Spodumain",
+    "refines_to": {
+      "megacyte": 35,
+      "morphite": 0,
+      "nocxium": 141,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 70,
+      "tritanium": 42487,
+      "isogen": 885
+    },
+    "item_id": 28418,
+    "volume": 28
+  },
+  {
+    "name": "Compressed Gleaming Spodumain",
+    "refines_to": {
+      "megacyte": 37,
+      "morphite": 0,
+      "nocxium": 148,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 74,
+      "tritanium": 44510,
+      "isogen": 927
+    },
+    "item_id": 28419,
+    "volume": 28
+  },
+  {
+    "name": "Compressed Dazzling Spodumain",
+    "refines_to": {
+      "megacyte": 38,
+      "morphite": 0,
+      "nocxium": 155,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 77,
+      "tritanium": 46533,
+      "isogen": 969
+    },
+    "item_id": 46704,
+    "volume": 28
+  },
+  {
+    "name": "Compressed Crokite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 674,
+      "mexallon": 1686,
+      "pyerite": 674,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28391,
+    "volume": 7.81
+  },
+  {
+    "name": "Compressed Sharp Crokite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 708,
+      "mexallon": 1770,
+      "pyerite": 708,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28392,
+    "volume": 7.81
+  },
+  {
+    "name": "Compressed Crystalline Crokite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 741,
+      "mexallon": 1854,
+      "pyerite": 741,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28393,
+    "volume": 7.81
+  },
+  {
+    "name": "Compressed Pellucid Crokite",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 775,
+      "mexallon": 1938,
+      "pyerite": 775,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 46693,
+    "volume": 7.81
+  },
+  {
+    "name": "Compressed Bistot",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1011,
+      "pyerite": 2697,
+      "zydrine": 134,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28388,
+    "volume": 4.4
+  },
+  {
+    "name": "Compressed Triclinic Bistot",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1062,
+      "pyerite": 2832,
+      "zydrine": 141,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28389,
+    "volume": 4.4
+  },
+  {
+    "name": "Compressed Monoclinic Bistot",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1112,
+      "pyerite": 2967,
+      "zydrine": 148,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28390,
+    "volume": 4.4
+  },
+  {
+    "name": "Compressed Cubic Bistot",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1163,
+      "pyerite": 3102,
+      "zydrine": 155,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 46692,
+    "volume": 4.4
+  },
+  {
+    "name": "Compressed Arkonor",
+    "refines_to": {
+      "megacyte": 101,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1011,
+      "pyerite": 2697,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28367,
+    "volume": 8.8
+  },
+  {
+    "name": "Compressed Crimson Arkonor",
+    "refines_to": {
+      "megacyte": 106,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1062,
+      "pyerite": 2832,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28385,
+    "volume": 8.8
+  },
+  {
+    "name": "Compressed Prime Arkonor",
+    "refines_to": {
+      "megacyte": 111,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1112,
+      "pyerite": 2967,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28387,
+    "volume": 8.8
+  },
+  {
+    "name": "Compressed Flawless Arkonor",
+    "refines_to": {
+      "megacyte": 116,
+      "morphite": 0,
+      "nocxium": 0,
+      "mexallon": 1163,
+      "pyerite": 3102,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 46691,
+    "volume": 8.8
+  },
+  {
+    "name": "Compressed Mercoxit",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 118,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28413,
+    "volume": 0.1
+  },
+  {
+    "name": "Compressed Magma Mercoxit",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 123,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28412,
+    "volume": 0.1
+  },
+  {
+    "name": "Compressed Vitreous Mercoxit",
+    "refines_to": {
+      "megacyte": 0,
+      "morphite": 129,
+      "nocxium": 0,
+      "mexallon": 0,
+      "pyerite": 0,
+      "zydrine": 0,
+      "tritanium": 0,
+      "isogen": 0
+    },
+    "item_id": 28414,
+    "volume": 0.1
+  }
+]

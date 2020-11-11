@@ -36,6 +36,7 @@ from dataclasses_json import dataclass_json
 from logzero import logger
 from ortools.linear_solver import pywraplp
 
+@dataclass_json
 @dataclasses.dataclass
 class Minerals:
     '''Minerals can be added to each other and multiplied by scalars.'''
@@ -46,6 +47,7 @@ class Minerals:
     nocxium: int = 0
     zydrine: int = 0
     megacyte: int = 0
+    morphite: int = 0
     def __add__(self, other):
         assert isinstance(other, Minerals)
         return Minerals(*[x+y for x,y in zip(dataclasses.astuple(self), dataclasses.astuple(other))])
@@ -53,6 +55,8 @@ class Minerals:
         return Minerals(*[x*scalar_number for x in dataclasses.astuple(self)])
     def __rmul__(self, scalar_number):
         return self.__mul__(scalar_number)
+    def floor(self):
+        return Minerals(*[int(x) for x in dataclasses.astuple(self)])
 
 
 @dataclass_json
@@ -80,6 +84,7 @@ def get_orders(item_id: int):
             logger.warning(o)
     return rv
 
+@dataclass_json
 @dataclasses.dataclass
 class Ore:
     '''A kind of ore, and how many of each mineral that one unit of ore refines into.'''
@@ -88,7 +93,7 @@ class Ore:
     volume: float
     refines_to: Minerals
 
-def read_ores() -> Dict[str, Ore]:
+def read_ores_csv() -> Dict[str, Ore]:
     rv = {}
     # thanks http://eve.kassikas.net/ore/?result=f6b93757
     with open('ore_50pctbase_554_4pctimplant.csv', 'r') as f:
@@ -98,3 +103,8 @@ def read_ores() -> Dict[str, Ore]:
             rv[o.name] = o
     return rv
 
+
+def read_ores_json() -> Dict[str, Ore]:
+    with open('ore_58pctbase_555_rx804.json', 'r') as f:
+        arr = Ore.schema().loads(f.read(), many=True)
+    return {o.name: o for o in arr}
