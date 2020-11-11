@@ -43,7 +43,7 @@ class Minerals:
     pyerite: int = 0
     mexallon: int = 0
     isogen: int = 0
-    noxcium: int = 0
+    nocxium: int = 0
     zydrine: int = 0
     megacyte: int = 0
     def __add__(self, other):
