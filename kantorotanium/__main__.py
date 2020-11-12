@@ -71,10 +71,10 @@ def main(args=None):
     twenty_thoraxes = Minerals(10.3e6, 1.29e6, 0.35e6, 94.06e3, 26.73e3, 10.11e3, 2567)
     twenty_moas = 2*Minerals(5.45e6, 1.39e6, 0.3564e6, 88.12e3, 23.77e3, 11.28e3, 3458)
     twenty_stabbers = 2*Minerals(4.56e6, 1.683e6, 0.3564e6, 92.07e3, 24.752e3, 11.09e3, 2175)
-    ten_tornadoes = Minerals(39.06e3, 9.744e6, 2.354e6, .6972e6, 0, 84592, 32914)
+    ten_tornadoes = Minerals(39.06e6, 9.744e6, 2.354e6, .6972e6, 0, 84592, 32914)
     ten_thrashers = Minerals(431163, 103347, 35793, 15813, 0, 1620, 234)
 
-    STASH = Minerals(isogen=13077093, nocxium=2922802, zydrine=607902, mexallon=2070878, megacyte=249423)
+    STASH = Minerals(isogen=12.1e6, nocxium=2922802, zydrine=489471, megacyte=203340)
 
     TARGET = 2*Minerals(*dataclasses.astuple(twenty_thoraxes + twenty_moas + twenty_stabbers)[0:3]) + Minerals(pyerite=20e6, mexallon=2e6) + Minerals(tritanium=40e6)
 
