@@ -86,7 +86,10 @@ def main(args=None):
     five_drakes = Minerals(12600000, 4500000, 810000, 90000, 36000, zydrine=9000, megacyte=1800)
     five_canes = Minerals(12474000, 4455000, 801900, 89100, 35640, zydrine=8910, megacyte=1782)
 
+    one_tfi = Minerals(tritanium=7920000, pyerite=3960000, mexallon=594000, isogen=396000, nocxium=29700, zydrine=7920, megacyte=3960)
+
     STASH = Minerals(isogen=4.7e6, nocxium=4.9e6, zydrine=200e3, megacyte=102e3)
+    STASH = Minerals()
 
     TARGET = 2*Minerals(*dataclasses.astuple(twenty_thoraxes + twenty_moas + twenty_stabbers)[0:3]) + Minerals(pyerite=20e6, mexallon=2e6) + Minerals(tritanium=40e6)
 
@@ -95,8 +98,10 @@ def main(args=None):
     TARGET = Minerals(tritanium=4811400, pyerite=1603800, mexallon=320760, isogen=89100, nocxium=13365, zydrine=3119, megacyte=1248)*1.1
     TARGET = 10*one_procurer + 2*one_porpoise + -1*STASH
     TARGET = five_drakes + five_canes + -1*STASH
+    TARGET = 36*one_tfi
     # \!/ Problem specification - you want to edit this part.
 
+    print(TARGET)
 
     for mineral in minerals:
         # The ores we buy need to refine into at least TARGET[mineral] many units.
@@ -125,7 +130,7 @@ def main(args=None):
         to_buy = {k:math.ceil(v) for k,v in to_buy.items()}
         refined_minerals = Minerals()
         for k,v in to_buy.items():
-            refined_minerals += ores[k].refines_to * v
+            refined_minerals += ores[k].refines_to * v * .01
         print("Yielding:")
         for k,v in dataclasses.asdict(refined_minerals).items():
             print(f'{v:,}x {k} (excess of {v - getattr(TARGET, k):,})')
@@ -145,6 +150,7 @@ def main(args=None):
         qtys = {}
         purchases = {}
         MAX_MULTIBUY_ROUNDS = 3
+        print(f"\n\nMinimizing cost while limiting to {MAX_MULTIBUY_ROUNDS} multibuy rounds:")
         for ore, d in to_buy_by_price.items():
             # Find the minimum-price N-partition for this ore
             best_partition = min((p for p in more_itertools.partitions(d.items()) if len(p)<=MAX_MULTIBUY_ROUNDS),
