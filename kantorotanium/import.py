@@ -6,7 +6,7 @@ import json
 from kantorotanium import Ore, Minerals
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-r', '--refine-rate', default=.843, help="defaults to 5/5/5, null ath, RX-804 implant")
+parser.add_argument('-r', '--refine-rate', default=0.8254, help="defaults to 5/5/5, ls t1 rig tatara, RX-804 implant")
 args = parser.parse_args()
 
 with open('data_files/ore.cerlestes.de.dump.json', 'r') as f:

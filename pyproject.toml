@@ -6,7 +6,7 @@ authors = ["Chris Danis <cdanis@gmail.com>"]
 include = ["ore_50pctbase_554_4pctimplant.csv", "ore_58pctbase_555_rx804.json"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "<3.12,>=3.8"
 more-itertools = "^8.6.0"
 
 
@@ -14,7 +14,7 @@ more-itertools = "^8.6.0"
 pytest = "^4.6"
 dataclasses-json = "^0.5.1"
 logzero = "^1.5"
-ortools = "^7.6"
+ortools = "^9.6"
 requests = "^2"
 bpython = "^0.20"
 

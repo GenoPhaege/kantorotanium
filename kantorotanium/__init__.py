@@ -110,6 +110,7 @@ class Ore:
     refines_to: Minerals
 
 def read_ores_csv() -> Dict[str, Ore]:
+    raise
     rv = {}
     # thanks http://eve.kassikas.net/ore/?result=f6b93757
     with open('ore_50pctbase_554_4pctimplant.csv', 'r') as f:

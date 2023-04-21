@@ -1,681 +1,960 @@
 [
-    {
-        "id": "veldspar",
-        "names": [
-            "Veldspar",
-            "Concentrated",
-            "Dense",
-            "Stable"
-        ],
-        "types_raw": [
-            1230,
-            17470,
-            17471,
-            46689
-        ],
-        "types_compressed": [
-            28432,
-            28430,
-            28431,
-            46705
-        ],
-        "batch": 100,
-        "volume": 0.1,
-        "volume_compressed": 0.15,
-        "factions": {
-            "highnull": [
-                "a",
-                "c",
-                "g",
-                "m"
-            ]
-        },
-        "minerals": {
-            "tritanium": 400
-        }
+  {
+    "id": "veldspar",
+    "names": [
+      "Veldspar",
+      "Concentrated",
+      "Dense",
+      "Stable"
+    ],
+    "types_raw": [
+      1230,
+      17470,
+      17471,
+      46689
+    ],
+    "types_compressed": [
+      62516,
+      62517,
+      62518,
+      62519
+    ],
+    "types_batch_compressed": [
+      28432,
+      28430,
+      28431,
+      46705
+    ],
+    "batch": 100,
+    "volume": 0.1,
+    "volume_compressed": 0.001,
+    "volume_batch_compressed": 0.15,
+    "factions": {
+      "hn": [
+        "a",
+        "c",
+        "g",
+        "m"
+      ]
     },
-    {
-        "id": "scordite",
-        "names": [
-            "Scordite",
-            "Condensed",
-            "Massive",
-            "Glossy"
-        ],
-        "types_raw": [
-            1228,
-            17463,
-            17464,
-            46687
-        ],
-        "types_compressed": [
-            28429,
-            28427,
-            28428,
-            46703
-        ],
-        "batch": 100,
-        "volume": 0.15,
-        "volume_compressed": 0.19,
-        "factions": {
-            "high": [
-                "a",
-                "c",
-                "g",
-                "m"
-            ]
-        },
-        "minerals": {
-            "tritanium": 150,
-            "pyerite": 90
-        }
-    },
-    {
-        "id": "pyroxeres",
-        "names": [
-            "Pyroxeres",
-            "Solid",
-            "Viscous",
-            "Opulent"
-        ],
-        "types_raw": [
-            1224,
-            17459,
-            17460,
-            46686
-        ],
-        "types_compressed": [
-            28424,
-            28425,
-            28426,
-            46702
-        ],
-        "batch": 100,
-        "volume": 0.3,
-        "volume_compressed": 0.16,
-        "factions": {
-            "all": [
-                "a",
-                "c"
-            ],
-            "wormhole": [
-                "w"
-            ]
-        },
-        "minerals": {
-            "pyerite": 90,
-            "mexallon": 30
-        }
-    },
-    {
-        "id": "plagioclase",
-        "names": [
-            "Plagioclase",
-            "Azure",
-            "Rich",
-            "Sparkling"
-        ],
-        "types_raw": [
-            18,
-            17455,
-            17456,
-            46685
-        ],
-        "types_compressed": [
-            28422,
-            28421,
-            28423,
-            46701
-        ],
-        "batch": 100,
-        "volume": 0.35,
-        "volume_compressed": 0.15,
-        "factions": {
-            "high": [
-                "c",
-                "g",
-                "m"
-            ]
-        },
-        "minerals": {
-            "tritanium": 175,
-            "mexallon": 70
-        }
-    },
-    {
-        "id": "omber",
-        "names": [
-            "Omber",
-            "Silvery",
-            "Golden",
-            "Platinoid"
-        ],
-        "types_raw": [
-            1227,
-            17867,
-            17868,
-            46684
-        ],
-        "types_compressed": [
-            28416,
-            28417,
-            28415,
-            46700
-        ],
-        "batch": 100,
-        "volume": 0.6,
-        "volume_compressed": 0.3,
-        "factions": {
-            "low": [
-                "g",
-                "m"
-            ],
-            "wormhole": [
-                "w"
-            ]
-        },
-        "minerals": {
-            "pyerite": 90,
-            "isogen": 75
-        }
-    },
-    {
-        "id": "kernite",
-        "names": [
-            "Kernite",
-            "Luminous",
-            "Fiery",
-            "Resplendant"
-        ],
-        "types_raw": [
-            20,
-            17452,
-            17453,
-            46683
-        ],
-        "types_compressed": [
-            28410,
-            28411,
-            28409,
-            46699
-        ],
-        "batch": 100,
-        "volume": 1.2,
-        "volume_compressed": 0.19,
-        "factions": {
-            "lownull": [
-                "a",
-                "c",
-                "m"
-            ],
-            "anomalies": [
-                "n"
-            ],
-            "wormhole": [
-                "w"
-            ]
-        },
-        "minerals": {
-            "mexallon": 60,
-            "isogen": 120
-        }
-    },
-    {
-        "id": "jaspet",
-        "names": [
-            "Jaspet",
-            "Pure",
-            "Pristine",
-            "Immaculate"
-        ],
-        "types_raw": [
-            1226,
-            17448,
-            17449,
-            46682
-        ],
-        "types_compressed": [
-            28406,
-            28407,
-            28408,
-            46698
-        ],
-        "batch": 100,
-        "volume": 2,
-        "volume_compressed": 0.15,
-        "factions": {
-            "low": [
-                "a",
-                "g"
-            ]
-        },
-        "minerals": {
-            "mexallon": 150,
-            "nocxium": 50
-        }
-    },
-    {
-        "id": "hemorphite",
-        "names": [
-            "Hemorphite",
-            "Vivid",
-            "Radiant",
-            "Scintillating"
-        ],
-        "types_raw": [
-            1231,
-            17444,
-            17445,
-            46681
-        ],
-        "types_compressed": [
-            28403,
-            28404,
-            28405,
-            46697
-        ],
-        "batch": 100,
-        "volume": 3,
-        "volume_compressed": 0.16,
-        "factions": {
-            "low": [
-                "a",
-                "g"
-            ],
-            "anomalies": [
-                "l"
-            ]
-        },
-        "minerals": {
-            "isogen": 240,
-            "nocxium": 90
-        }
-    },
-    {
-        "id": "hedbergite",
-        "names": [
-            "Hedbergite",
-            "Vitric",
-            "Glazed",
-            "Lustrous"
-        ],
-        "types_raw": [
-            21,
-            17440,
-            17441,
-            46680
-        ],
-        "types_compressed": [
-            28401,
-            28402,
-            28400,
-            46696
-        ],
-        "batch": 100,
-        "volume": 3,
-        "volume_compressed": 0.14,
-        "factions": {
-            "low": [
-                "c",
-                "m"
-            ],
-            "anomalies": [
-                "l"
-            ]
-        },
-        "minerals": {
-            "pyerite": 450,
-            "nocxium": 120
-        }
-    },
-    {
-        "id": "gneiss",
-        "names": [
-            "Gneiss",
-            "Iridescent",
-            "Prismatic",
-            "Brilliant"
-        ],
-        "types_raw": [
-            1229,
-            17865,
-            17866,
-            46679
-        ],
-        "types_compressed": [
-            28397,
-            28398,
-            28399,
-            46695
-        ],
-        "batch": 100,
-        "volume": 5,
-        "volume_compressed": 1.8,
-        "factions": {
-            "anomalies": [
-                "l",
-                "n"
-            ],
-            "wormhole": [
-                "w"
-            ]
-        },
-        "minerals": {
-            "pyerite": 2000,
-            "mexallon": 1500,
-            "isogen": 800
-        }
-    },
-    {
-        "id": "darkochre",
-        "names": [
-            "Dark Ochre",
-            "Onyx",
-            "Obsidian",
-            "Jet"
-        ],
-        "types_raw": [
-            1232,
-            17436,
-            17437,
-            46675
-        ],
-        "types_compressed": [
-            28394,
-            28395,
-            28396,
-            46694
-        ],
-        "batch": 100,
-        "volume": 8,
-        "volume_compressed": 3.27,
-        "factions": {
-            "anomalies": [
-                "l",
-                "n"
-            ]
-        },
-        "minerals": {
-            "mexallon": 1360,
-            "isogen": 1200,
-            "nocxium": 320
-        }
-    },
-    {
-        "id": "spodumain",
-        "names": [
-            "Spodumain",
-            "Bright",
-            "Gleaming",
-            "Dazzling"
-        ],
-        "types_raw": [
-            19,
-            17466,
-            17467,
-            46688
-        ],
-        "types_compressed": [
-            28420,
-            28418,
-            28419,
-            46704
-        ],
-        "batch": 100,
-        "volume": 16,
-        "volume_compressed": 28,
-        "factions": {
-            "null": [
-                "a",
-                "c",
-                "m"
-            ],
-            "anomalies": [
-                "l",
-                "n"
-            ]
-        },
-        "minerals": {
-            "tritanium": 48000,
-            "isogen": 1000,
-            "nocxium": 160,
-            "zydrine": 80,
-            "megacyte": 40
-        }
-    },
-    {
-        "id": "crokite",
-        "names": [
-            "Crokite",
-            "Sharp",
-            "Crystalline",
-            "Pellucid"
-        ],
-        "types_raw": [
-            1225,
-            17432,
-            17433,
-            46677
-        ],
-        "types_compressed": [
-            28391,
-            28392,
-            28393,
-            46693
-        ],
-        "batch": 100,
-        "volume": 16,
-        "volume_compressed": 7.81,
-        "factions": {
-            "anomalies": [
-                "l"
-            ]
-        },
-        "minerals": {
-            "pyerite": 800,
-            "mexallon": 2000,
-            "nocxium": 800
-        }
-    },
-    {
-        "id": "bistot",
-        "names": [
-            "Bistot",
-            "Triclinic",
-            "Monoclinic",
-            "Cubic"
-        ],
-        "types_raw": [
-            1223,
-            17428,
-            17429,
-            46676
-        ],
-        "types_compressed": [
-            28388,
-            28389,
-            28390,
-            46692
-        ],
-        "batch": 100,
-        "volume": 16,
-        "volume_compressed": 4.4,
-        "factions": {
-            "null": [
-                "a",
-                "c",
-                "g",
-                "m"
-            ],
-            "anomalies": [
-                "n"
-            ],
-            "wormhole": [
-                "w"
-            ]
-        },
-        "minerals": {
-            "pyerite": 3200,
-            "mexallon": 1200,
-            "zydrine": 160
-        }
-    },
-    {
-        "id": "arkonor",
-        "names": [
-            "Arkonor",
-            "Crimson",
-            "Prime",
-            "Flawless"
-        ],
-        "types_raw": [
-            22,
-            17425,
-            17426,
-            46678
-        ],
-        "types_compressed": [
-            28367,
-            28385,
-            28387,
-            46691
-        ],
-        "batch": 100,
-        "volume": 16,
-        "volume_compressed": 8.8,
-        "factions": {
-            "null": [
-                "a",
-                "g",
-                "m"
-            ],
-            "anomalies": [
-                "n"
-            ],
-            "wormhole": [
-                "w"
-            ]
-        },
-        "minerals": {
-            "pyerite": 3200,
-            "mexallon": 1200,
-            "megacyte": 120
-        }
-    },
-    {
-        "id": "mercoxit",
-        "names": [
-            "Mercoxit",
-            "Magma",
-            "Vitreous"
-        ],
-        "types_raw": [
-            11396,
-            17869,
-            17870
-        ],
-        "types_compressed": [
-            28413,
-            28412,
-            28414
-        ],
-        "batch": 100,
-        "volume": 40,
-        "volume_compressed": 0.1,
-        "factions": {
-            "null": [
-                "a",
-                "c",
-                "g",
-                "m"
-            ],
-            "anomalies": [
-                "n"
-            ]
-        },
-        "minerals": {
-            "morphite": 140
-        }
-    },
-    {
-        "id": "bezdnacine",
-        "names": [
-            "Bezdnacine",
-            "Abyssal",
-            "Hadal"
-        ],
-        "types_raw": [
-            52316,
-            56627,
-            56628
-        ],
-        "types_compressed": [],
-        "batch": 100,
-        "volume": 16,
-        "volume_compressed": 0,
-        "factions": {
-            "triglavian": [
-                "t"
-            ]
-        },
-        "minerals": {
-            "tritanium": 40000,
-            "isogen": 4800,
-            "megacyte": 128
-        }
-    },
-    {
-        "id": "rakovene",
-        "names": [
-            "Rakovene",
-            "Abyssal",
-            "Hadal"
-        ],
-        "types_raw": [
-            52315,
-            56629,
-            56630
-        ],
-        "types_compressed": [],
-        "batch": 100,
-        "volume": 16,
-        "volume_compressed": 0,
-        "factions": {
-            "triglavian": [
-                "t"
-            ]
-        },
-        "minerals": {
-            "tritanium": 40000,
-            "isogen": 3200,
-            "zydrine": 200
-        }
-    },
-    {
-        "id": "talassonite",
-        "names": [
-            "Talassonite",
-            "Abyssal",
-            "Hadal"
-        ],
-        "types_raw": [
-            52306,
-            56625,
-            56626
-        ],
-        "types_compressed": [],
-        "batch": 100,
-        "volume": 16,
-        "volume_compressed": 0,
-        "factions": {
-            "triglavian": [
-                "t"
-            ]
-        },
-        "minerals": {
-            "tritanium": 40000,
-            "nocxium": 960,
-            "megacyte": 32
-        }
+    "minerals": {
+      "tritanium": 400
     }
+  },
+  {
+    "id": "scordite",
+    "names": [
+      "Scordite",
+      "Condensed",
+      "Massive",
+      "Glossy"
+    ],
+    "types_raw": [
+      1228,
+      17463,
+      17464,
+      46687
+    ],
+    "types_compressed": [
+      62520,
+      62521,
+      62522,
+      62523
+    ],
+    "types_batch_compressed": [
+      28429,
+      28427,
+      28428,
+      46703
+    ],
+    "batch": 100,
+    "volume": 0.15,
+    "volume_compressed": 0.0015,
+    "volume_batch_compressed": 0.19,
+    "factions": {
+      "h": [
+        "a",
+        "c",
+        "g",
+        "m"
+      ]
+    },
+    "minerals": {
+      "tritanium": 150,
+      "pyerite": 90
+    }
+  },
+  {
+    "id": "pyroxeres",
+    "names": [
+      "Pyroxeres",
+      "Solid",
+      "Viscous",
+      "Opulent"
+    ],
+    "types_raw": [
+      1224,
+      17459,
+      17460,
+      46686
+    ],
+    "types_compressed": [
+      62524,
+      62525,
+      62526,
+      62527
+    ],
+    "types_batch_compressed": [
+      28424,
+      28425,
+      28426,
+      46702
+    ],
+    "batch": 100,
+    "volume": 0.3,
+    "volume_compressed": 0.003,
+    "volume_batch_compressed": 0.16,
+    "factions": {
+      "all": [
+        "a",
+        "c"
+      ],
+      "anom": [
+        "n"
+      ],
+      "special": [
+        "w"
+      ]
+    },
+    "minerals": {
+      "pyerite": 90,
+      "mexallon": 30
+    }
+  },
+  {
+    "id": "plagioclase",
+    "names": [
+      "Plagioclase",
+      "Azure",
+      "Rich",
+      "Sparkling"
+    ],
+    "types_raw": [
+      18,
+      17455,
+      17456,
+      46685
+    ],
+    "types_compressed": [
+      62528,
+      62529,
+      62530,
+      62531
+    ],
+    "types_batch_compressed": [
+      28422,
+      28421,
+      28423,
+      46701
+    ],
+    "batch": 100,
+    "volume": 0.35,
+    "volume_compressed": 0.0035,
+    "volume_batch_compressed": 0.15,
+    "factions": {
+      "h": [
+        "c",
+        "g",
+        "m"
+      ]
+    },
+    "minerals": {
+      "tritanium": 175,
+      "mexallon": 70
+    }
+  },
+  {
+    "id": "omber",
+    "names": [
+      "Omber",
+      "Silvery",
+      "Golden",
+      "Platinoid"
+    ],
+    "types_raw": [
+      1227,
+      17867,
+      17868,
+      46684
+    ],
+    "types_compressed": [
+      62532,
+      62533,
+      62534,
+      62535
+    ],
+    "types_batch_compressed": [
+      28416,
+      28417,
+      28415,
+      46700
+    ],
+    "batch": 100,
+    "volume": 0.6,
+    "volume_compressed": 0.006,
+    "volume_batch_compressed": 0.3,
+    "factions": {
+      "l": [
+        "g",
+        "m"
+      ],
+      "anom": [
+        "n"
+      ],
+      "special": [
+        "w"
+      ]
+    },
+    "minerals": {
+      "pyerite": 90,
+      "isogen": 75
+    }
+  },
+  {
+    "id": "kernite",
+    "names": [
+      "Kernite",
+      "Luminous",
+      "Fiery",
+      "Resplendant"
+    ],
+    "types_raw": [
+      20,
+      17452,
+      17453,
+      46683
+    ],
+    "types_compressed": [
+      62536,
+      62537,
+      62538,
+      62539
+    ],
+    "types_batch_compressed": [
+      28410,
+      28411,
+      28409,
+      46699
+    ],
+    "batch": 100,
+    "volume": 1.2,
+    "volume_compressed": 0.012,
+    "volume_batch_compressed": 0.19,
+    "factions": {
+      "ln": [
+        "a",
+        "c",
+        "m"
+      ],
+      "anom": [
+        "n"
+      ],
+      "special": [
+        "w"
+      ]
+    },
+    "minerals": {
+      "mexallon": 60,
+      "isogen": 120
+    }
+  },
+  {
+    "id": "jaspet",
+    "names": [
+      "Jaspet",
+      "Pure",
+      "Pristine",
+      "Immaculate"
+    ],
+    "types_raw": [
+      1226,
+      17448,
+      17449,
+      46682
+    ],
+    "types_compressed": [
+      62540,
+      62541,
+      62542,
+      62543
+    ],
+    "types_batch_compressed": [
+      28406,
+      28408,
+      28407,
+      46698
+    ],
+    "batch": 100,
+    "volume": 2,
+    "volume_compressed": 0.02,
+    "volume_batch_compressed": 0.15,
+    "factions": {
+      "l": [
+        "a",
+        "g"
+      ],
+      "anom": [
+        "l"
+      ]
+    },
+    "minerals": {
+      "mexallon": 150,
+      "nocxium": 50
+    }
+  },
+  {
+    "id": "hemorphite",
+    "names": [
+      "Hemorphite",
+      "Vivid",
+      "Radiant",
+      "Scintillating"
+    ],
+    "types_raw": [
+      1231,
+      17444,
+      17445,
+      46681
+    ],
+    "types_compressed": [
+      62544,
+      62545,
+      62546,
+      62547
+    ],
+    "types_batch_compressed": [
+      28403,
+      28405,
+      28404,
+      46697
+    ],
+    "batch": 100,
+    "volume": 3,
+    "volume_compressed": 0.03,
+    "volume_batch_compressed": 0.16,
+    "factions": {
+      "l": [
+        "a",
+        "g"
+      ],
+      "anom": [
+        "l"
+      ]
+    },
+    "minerals": {
+      "isogen": 240,
+      "nocxium": 90
+    }
+  },
+  {
+    "id": "hedbergite",
+    "names": [
+      "Hedbergite",
+      "Vitric",
+      "Glazed",
+      "Lustrous"
+    ],
+    "types_raw": [
+      21,
+      17440,
+      17441,
+      46680
+    ],
+    "types_compressed": [
+      62548,
+      62549,
+      62550,
+      62551
+    ],
+    "types_batch_compressed": [
+      28401,
+      28402,
+      28400,
+      46696
+    ],
+    "batch": 100,
+    "volume": 3,
+    "volume_compressed": 0.03,
+    "volume_batch_compressed": 0.14,
+    "factions": {
+      "l": [
+        "c",
+        "m"
+      ],
+      "anom": [
+        "l"
+      ]
+    },
+    "minerals": {
+      "pyerite": 450,
+      "nocxium": 120
+    }
+  },
+  {
+    "id": "gneiss",
+    "names": [
+      "Gneiss",
+      "Iridescent",
+      "Prismatic",
+      "Brilliant"
+    ],
+    "types_raw": [
+      1229,
+      17865,
+      17866,
+      46679
+    ],
+    "types_compressed": [
+      62552,
+      62553,
+      62554,
+      62555
+    ],
+    "types_batch_compressed": [
+      28397,
+      28398,
+      28399,
+      46695
+    ],
+    "batch": 100,
+    "volume": 5,
+    "volume_compressed": 0.05,
+    "volume_batch_compressed": 1.8,
+    "factions": {
+      "anom": [
+        "l",
+        "n"
+      ],
+      "special": [
+        "w"
+      ]
+    },
+    "minerals": {
+      "pyerite": 2000,
+      "mexallon": 1500,
+      "isogen": 800
+    }
+  },
+  {
+    "id": "darkochre",
+    "names": [
+      "Dark Ochre",
+      "Onyx",
+      "Obsidian",
+      "Jet"
+    ],
+    "types_raw": [
+      1232,
+      17436,
+      17437,
+      46675
+    ],
+    "types_compressed": [
+      62556,
+      62557,
+      62558,
+      62559
+    ],
+    "types_batch_compressed": [
+      28394,
+      28396,
+      28395,
+      46694
+    ],
+    "batch": 100,
+    "volume": 8,
+    "volume_compressed": 0.08,
+    "volume_batch_compressed": 3.27,
+    "factions": {
+      "anom": [
+        "l",
+        "n"
+      ]
+    },
+    "minerals": {
+      "mexallon": 1360,
+      "isogen": 1200,
+      "nocxium": 320
+    }
+  },
+  {
+    "id": "spodumain",
+    "names": [
+      "Spodumain",
+      "Bright",
+      "Gleaming",
+      "Dazzling"
+    ],
+    "types_raw": [
+      19,
+      17466,
+      17467,
+      46688
+    ],
+    "types_compressed": [
+      62572,
+      62573,
+      62574,
+      62575
+    ],
+    "types_batch_compressed": [
+      28420,
+      28418,
+      28419,
+      46704
+    ],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 28,
+    "factions": {
+      "n": [
+        "a",
+        "c",
+        "m"
+      ],
+      "anom": [
+        "l",
+        "n"
+      ]
+    },
+    "minerals": {
+      "tritanium": 48000,
+      "isogen": 1000,
+      "nocxium": 160,
+      "zydrine": 80,
+      "megacyte": 40
+    }
+  },
+  {
+    "id": "crokite",
+    "names": [
+      "Crokite",
+      "Sharp",
+      "Crystalline",
+      "Pellucid"
+    ],
+    "types_raw": [
+      1225,
+      17432,
+      17433,
+      46677
+    ],
+    "types_compressed": [
+      62560,
+      62561,
+      62562,
+      62563
+    ],
+    "types_batch_compressed": [
+      28391,
+      28393,
+      28392,
+      46693
+    ],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 7.81,
+    "factions": {
+      "anom": [
+        "l",
+        "n"
+      ]
+    },
+    "minerals": {
+      "pyerite": 800,
+      "mexallon": 2000,
+      "nocxium": 800
+    }
+  },
+  {
+    "id": "bistot",
+    "names": [
+      "Bistot",
+      "Triclinic",
+      "Monoclinic",
+      "Cubic"
+    ],
+    "types_raw": [
+      1223,
+      17428,
+      17429,
+      46676
+    ],
+    "types_compressed": [
+      62564,
+      62565,
+      62566,
+      62567
+    ],
+    "types_batch_compressed": [
+      28388,
+      28390,
+      28389,
+      46692
+    ],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 4.4,
+    "factions": {
+      "n": [
+        "a",
+        "c",
+        "g",
+        "m"
+      ],
+      "anom": [
+        "n"
+      ],
+      "special": [
+        "w"
+      ]
+    },
+    "minerals": {
+      "pyerite": 3200,
+      "mexallon": 1200,
+      "zydrine": 160
+    }
+  },
+  {
+    "id": "arkonor",
+    "names": [
+      "Arkonor",
+      "Crimson",
+      "Prime",
+      "Flawless"
+    ],
+    "types_raw": [
+      22,
+      17425,
+      17426,
+      46678
+    ],
+    "types_compressed": [
+      62568,
+      62569,
+      62570,
+      62571
+    ],
+    "types_batch_compressed": [
+      28367,
+      28385,
+      28387,
+      46691
+    ],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 8.8,
+    "factions": {
+      "n": [
+        "a",
+        "g",
+        "m"
+      ],
+      "anom": [
+        "n"
+      ],
+      "special": [
+        "w"
+      ]
+    },
+    "minerals": {
+      "pyerite": 3200,
+      "mexallon": 1200,
+      "megacyte": 120
+    }
+  },
+  {
+    "id": "mercoxit",
+    "names": [
+      "Mercoxit",
+      "Magma",
+      "Vitreous"
+    ],
+    "types_raw": [
+      11396,
+      17869,
+      17870
+    ],
+    "types_compressed": [
+      62586,
+      62587,
+      62588
+    ],
+    "types_batch_compressed": [
+      28413,
+      28412,
+      28414
+    ],
+    "batch": 100,
+    "volume": 40,
+    "volume_compressed": 0.4,
+    "volume_batch_compressed": 0.1,
+    "factions": {
+      "n": [
+        "a",
+        "c",
+        "g",
+        "m"
+      ],
+      "anom": [
+        "n"
+      ]
+    },
+    "minerals": {
+      "morphite": 140
+    }
+  },
+  {
+    "id": "bezdnacine",
+    "names": [
+      "Bezdnacine",
+      "Abyssal",
+      "Hadal"
+    ],
+    "types_raw": [
+      52316,
+      56627,
+      56628
+    ],
+    "types_compressed": [
+      62576,
+      62577,
+      62578
+    ],
+    "types_batch_compressed": [],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 0,
+    "factions": {
+      "special": [
+        "t"
+      ]
+    },
+    "minerals": {
+      "tritanium": 40000,
+      "isogen": 4800,
+      "megacyte": 128
+    }
+  },
+  {
+    "id": "rakovene",
+    "names": [
+      "Rakovene",
+      "Abyssal",
+      "Hadal"
+    ],
+    "types_raw": [
+      52315,
+      56629,
+      56630
+    ],
+    "types_compressed": [
+      62579,
+      62580,
+      62581
+    ],
+    "types_batch_compressed": [],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 0,
+    "factions": {
+      "special": [
+        "t"
+      ]
+    },
+    "minerals": {
+      "tritanium": 40000,
+      "isogen": 3200,
+      "zydrine": 200
+    }
+  },
+  {
+    "id": "talassonite",
+    "names": [
+      "Talassonite",
+      "Abyssal",
+      "Hadal"
+    ],
+    "types_raw": [
+      52306,
+      56625,
+      56626
+    ],
+    "types_compressed": [
+      62582,
+      62583,
+      62584
+    ],
+    "types_batch_compressed": [],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 0,
+    "factions": {
+      "special": [
+        "t"
+      ]
+    },
+    "minerals": {
+      "tritanium": 40000,
+      "nocxium": 960,
+      "megacyte": 32
+    }
+  },
+  {
+    "id": "ducinium",
+    "names": [
+      "Ducinium",
+      "Noble",
+      "Royal",
+      "Imperial"
+    ],
+    "types_raw": [
+      74533,
+      74534,
+      74535,
+      74536
+    ],
+    "types_compressed": [
+      75287,
+      75288,
+      75289,
+      75290
+    ],
+    "types_batch_compressed": [],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 0,
+    "factions": {
+      "special": [
+        "a0",
+        "zf"
+      ]
+    },
+    "minerals": {
+      "megacyte": 170
+    }
+  },
+  {
+    "id": "eifyrium",
+    "names": [
+      "Eifyrium",
+      "Doped",
+      "Boosted",
+      "Augmented"
+    ],
+    "types_raw": [
+      74529,
+      74530,
+      74531,
+      74532
+    ],
+    "types_compressed": [
+      75283,
+      75284,
+      75285,
+      75286
+    ],
+    "types_batch_compressed": [],
+    "batch": 100,
+    "volume": 16,
+    "volume_compressed": 0.16,
+    "volume_batch_compressed": 0,
+    "factions": {
+      "special": [
+        "a0",
+        "zf"
+      ]
+    },
+    "minerals": {
+      "zydrine": 266
+    }
+  },
+  {
+    "id": "mordunium",
+    "names": [
+      "Mordunium",
+      "Plum",
+      "Prize",
+      "Plunder"
+    ],
+    "types_raw": [
+      74521,
+      74522,
+      74523,
+      74524
+    ],
+    "types_compressed": [
+      75275,
+      75276,
+      75277,
+      75278
+    ],
+    "types_batch_compressed": [],
+    "batch": 100,
+    "volume": 0.1,
+    "volume_compressed": 0.001,
+    "volume_batch_compressed": 0,
+    "factions": {
+      "special": [
+        "a0",
+        "zf"
+      ]
+    },
+    "minerals": {
+      "pyerite": 80
+    }
+  },
+  {
+    "id": "ytirium",
+    "names": [
+      "Ytirium",
+      "Bootleg",
+      "Firewater",
+      "Moonshine"
+    ],
+    "types_raw": [
+      74525,
+      74526,
+      74527,
+      74528
+    ],
+    "types_compressed": [
+      75279,
+      75280,
+      75281,
+      75282
+    ],
+    "types_batch_compressed": [],
+    "batch": 100,
+    "volume": 0.6,
+    "volume_compressed": 0.006,
+    "volume_batch_compressed": 0,
+    "factions": {
+      "special": [
+        "a0",
+        "zf"
+      ]
+    },
+    "minerals": {
+      "isogen": 240
+    }
+  }
 ]
