@@ -102,7 +102,7 @@ def main(args=None):
         # The ores we buy need to refine into at least TARGET[mineral] many units.
         ct = solver.Constraint(getattr(TARGET, mineral), solver.infinity())
         for k, var in order_vars.items():
-            ct.SetCoefficient(var, getattr(ores[names[rounded_orders[k].item_id]].refines_to, mineral))
+            ct.SetCoefficient(var, getattr(ores[names[rounded_orders[k].item_id]].refines_to, mineral) / 100.0)
 
     status = solver.Solve()
 
