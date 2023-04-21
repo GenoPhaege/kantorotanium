@@ -11,6 +11,7 @@ in Economic Sciences in 1975.  -- https://en.wikipedia.org/wiki/Leonid_Kantorovi
 
 import csv
 import dataclasses
+import itertools
 import math
 import os
 import requests
@@ -19,11 +20,13 @@ import time
 from collections import defaultdict
 from typing import Dict
 
+import more_itertools
+
 from dataclasses_json import dataclass_json
 from logzero import logger
 from ortools.linear_solver import pywraplp
 
-from kantorotanium import Minerals, Order, Ore, get_orders, read_ores_json
+from kantorotanium import Minerals, Order, Ore, get_orders, read_ores_json, Purchase
 
 def main(args=None):
     ores = read_ores_json()
@@ -73,12 +76,25 @@ def main(args=None):
     twenty_stabbers = 2*Minerals(4.56e6, 1.683e6, 0.3564e6, 92.07e3, 24.752e3, 11.09e3, 2175)
     ten_tornadoes = Minerals(39.06e6, 9.744e6, 2.354e6, .6972e6, 0, 84592, 32914)
     ten_thrashers = Minerals(431163, 103347, 35793, 15813, 0, 1620, 234)
+    five_harbs = Minerals(17.33e6, 3.713e6, .916e3, 148.5e3, zydrine=29.7e3, megacyte=11878)
+    one_typhoon = Minerals(9.16e3, 2.49e6, 557e3, 147e3, 30.88e3, 16256, 4277)
+    one_oracle = Minerals(5.19e6, 1.11e6, .279e6, 45218, zydrine=8773, megacyte=3475)
 
-    STASH = Minerals(isogen=12.1e6, nocxium=2922802, zydrine=489471, megacyte=203340)
+    one_porpoise = Minerals(3207600, 601425, 150357, 80190, 30072, zydrine=5012, megacyte=2807)
+    one_procurer = Minerals(1425600, 267300, 66825, 35640, 13365, zydrine=2228, megacyte=1248)
+
+    five_drakes = Minerals(12600000, 4500000, 810000, 90000, 36000, zydrine=9000, megacyte=1800)
+    five_canes = Minerals(12474000, 4455000, 801900, 89100, 35640, zydrine=8910, megacyte=1782)
+
+    STASH = Minerals(isogen=4.7e6, nocxium=4.9e6, zydrine=200e3, megacyte=102e3)
 
     TARGET = 2*Minerals(*dataclasses.astuple(twenty_thoraxes + twenty_moas + twenty_stabbers)[0:3]) + Minerals(pyerite=20e6, mexallon=2e6) + Minerals(tritanium=40e6)
 
     TARGET = 2*ten_tornadoes + 2*ten_thrashers + twenty_stabbers + -1*STASH
+    TARGET = 20*five_harbs + -1*STASH
+    TARGET = Minerals(tritanium=4811400, pyerite=1603800, mexallon=320760, isogen=89100, nocxium=13365, zydrine=3119, megacyte=1248)*1.1
+    TARGET = 10*one_procurer + 2*one_porpoise + -1*STASH
+    TARGET = five_drakes + five_canes + -1*STASH
     # \!/ Problem specification - you want to edit this part.
 
 
@@ -118,6 +134,31 @@ def main(args=None):
             print(f'{v}x {k}')
         print(f"\n\nTotal price: {math.ceil(price):,}")
         print(f"Total volume: {volume:,} m3")
+
+        print("\n\n")
+        to_buy_by_price = defaultdict(lambda: defaultdict(int))
+        for k, var in order_vars.items():
+            if var.solution_value() != 0:
+                to_buy_by_price[names[rounded_orders[k].item_id]][rounded_orders[k].price] += math.ceil(var.solution_value())
+        to_buy_by_price = {k: dict(sorted(v.items())) for (k,v) in to_buy_by_price.items()}
+        #print(dict(to_buy_by_price))
+        qtys = {}
+        purchases = {}
+        MAX_MULTIBUY_ROUNDS = 3
+        for ore, d in to_buy_by_price.items():
+            # Find the minimum-price N-partition for this ore
+            best_partition = min((p for p in more_itertools.partitions(d.items()) if len(p)<=MAX_MULTIBUY_ROUNDS),
+                                 key=lambda p: sum([max([t[0] for t in piece]) * sum([t[1] for t in piece]) for piece in p]))
+            print(f"{ore}: {best_partition}")
+            qtys[ore] = [sum([t[1] for t in piece]) for piece in best_partition]
+            purchases[ore] = [Purchase(price=max([t[0] for t in piece]), qty=sum([t[1] for t in piece])) for piece in best_partition]
+            #print(qtys)
+        print("\n\n")
+        print(qtys); print(purchases);print("\n\n")
+        for batch in itertools.zip_longest(*[[f"{v}x {k}" for v in q] for k,q in qtys.items()]):
+            print("INPUT TO MULTIBUY:\n")
+            print("\n".join(filter(None, batch)))
+            print("\n\n")
 
 
 if __name__ == "__main__":

@@ -68,6 +68,22 @@ class Order:
     volume_remain: int
     price: float
 
+
+@dataclasses.dataclass
+class Purchase:
+    price: float
+    qty: float
+#    name: str
+
+    def __add__(self, other):
+        assert isinstance(other, Purchase)
+        return Purchase(price=max(self.price, other.price), qty=self.qty+other.qty)
+
+    def cost(self):
+        return self.price*self.qty
+
+
+
 def get_orders(item_id: int):
     logger.info('fetching item %s', item_id)
     # TODO pagination
