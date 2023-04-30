@@ -34,7 +34,7 @@ def main(args=None):
 
     all_orders = []
     ALL_ORDERS_JSON = 'all_orders.cache.json'
-    if os.path.exists(ALL_ORDERS_JSON) and time.time() - os.path.getmtime(ALL_ORDERS_JSON) < 3600:
+    if os.path.exists(ALL_ORDERS_JSON) and time.time() - os.path.getmtime(ALL_ORDERS_JSON) < 15*60:
         logger.info('using cached orders')
         with open(ALL_ORDERS_JSON, 'r') as f:
             all_orders = Order.schema().loads(f.read(), many=True)
@@ -149,8 +149,7 @@ def main(args=None):
         #print(dict(to_buy_by_price))
         qtys = {}
         purchases = {}
-        MAX_MULTIBUY_ROUNDS = 3
-        print(f"\n\nMinimizing cost while limiting to {MAX_MULTIBUY_ROUNDS} multibuy rounds:")
+        MAX_MULTIBUY_ROUNDS = 4
         for ore, d in to_buy_by_price.items():
             # Find the minimum-price N-partition for this ore
             best_partition = min((p for p in more_itertools.partitions(d.items()) if len(p)<=MAX_MULTIBUY_ROUNDS),
@@ -161,6 +160,7 @@ def main(args=None):
             #print(qtys)
         print("\n\n")
         print(qtys); print(purchases);print("\n\n")
+        print(f"\n\nMinimizing cost while limiting to {MAX_MULTIBUY_ROUNDS} multibuy rounds:\n")
         for batch in itertools.zip_longest(*[[f"{v}x {k}" for v in q] for k,q in qtys.items()]):
             print("INPUT TO MULTIBUY:\n")
             print("\n".join(filter(None, batch)))
