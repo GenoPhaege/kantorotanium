@@ -8,6 +8,10 @@ include = ["ore_50pctbase_554_4pctimplant.csv", "ore_58pctbase_555_rx804.json"]
 [tool.poetry.dependencies]
 python = "<3.12,>=3.8"
 more-itertools = "^8.6.0"
+ortools = "^9.6.2534"
+logzero = "^1.7.0"
+requests = "^2.31.0"
+dataclasses-json = "^0.5.7"
 
 
 [tool.poetry.dev-dependencies]
@@ -17,6 +21,9 @@ logzero = "^1.5"
 ortools = "^9.6"
 requests = "^2"
 bpython = "^0.20"
+
+[tool.poetry.group.dev.dependencies]
+poetry2setup = "^1.1.0"
 
 [tool.dephell.main]
 from = {format = "poetry", path = "pyproject.toml"}
