@@ -17,7 +17,14 @@ with open('data_files/ore.cerlestes.de.dump.json', 'r') as f:
             continue
         basename = o['names'][0]
         for (name, typeid, mult) in zip(o['names'], o['types_compressed'], [1.0, 1.05, 1.1, 1.15]):
-            fullname = f"{name} {basename}" if name != basename else name
+            if name != basename:
+                if basename == "Dark Ochre":
+                    fullname = f"{name} Ochre"
+                else:
+                    fullname = f"{name} {basename}"
+            else:
+                fullname = name
+
             fullname = "Compressed " + fullname
             m = (Minerals(**o['minerals']) * mult * args.refine_rate).floor()
             # print(f"{fullname}: {typeid}: {m}")
